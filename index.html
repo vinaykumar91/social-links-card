@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social links profile</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    *{
+      padding: 0px;
+      margin:0px;
+      box-sizing: border-box;
+      font-family: "inter",sans-serif;
+    }
+    body{
+      height:100vh;
+      width:100%;
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: hsl(0, 0%, 8%);
+    }
+    .card{
+      padding-top: 25px;
+      height:600px;
+      width:350px;
+      background-color:hsl(0, 0%, 12%);
+      color: hsl(0, 0%, 100%);
+      border-radius: 10px;
+      text-align: center;
+      align-items: center;
+    }
+    ul>li{
+      background-color: hsl(0, 0%, 20%);
+      margin: 15px;
+      list-style-type: none;
+      padding: 15px;
+      border-radius: 10px;
+      font-weight: 700;
+      text-align: center;
+      cursor:pointer;
+    }
+    li:active{
+      background-color: hsl(75, 94%, 57%);
+      color: black;
+      cursor:pointer;
+    }
+    .attribution { font-size: 11px; text-align: center;color: white; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="./assets/images/avatar-jessica.jpeg" style="height: 100px;width:100px;border-radius:50%;" />
+    <h1 style="margin: 10px;">Jessica Randall</h1>
+    <h4 style="color: hsl(75, 94%, 57%);margin: -5px;">London, United Kingdom</h4>
+    <p style="font-size: 14px;margin: 25px;">"Front-end developer and avid reader."</p>
+    <ul>
+      <li class="pa">GitHub</li>
+      <li>Frontend Mentor</li>
+      <li>LinkedIn</li>
+      <li>Twitter</li>
+      <li>Instagram</li>
+
+    </ul>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
